@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--picture jpg logo png-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Aung's Portfolio Website</title>
+  </head>
+
+  <body>
+    <nav class="centered">
+      <ul>
+        <li class="page"><a href="/pages/resumes.html">Resume</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <h1 id="myname">Aung Khant Kyaw</h1>
+      <template><h2>Welcome to my Website</h2></template>
+      <img src="/images/Aung.jpg" alt="My Photo" width="200" height="200" />
+    </header>
+
+    <hr />
+
+    <section class="section1">
+      <h3>About Me</h3>
+      <p>
+        <i>To Anyone Reading, </i>I am a web developer from the country of
+        Myanmar who is extremely enthuastic about the inner workings of the web
+        and its complexities. I mainly specialize in backend web develpment. My
+        hobbies are playing games and building websites
+      </p>
+      <p>Personal skills</p>
+      <ul>
+        <li><b>Leadership</b></li>
+        <li><b>Hardworking</b></li>
+        <li><b>Diligent</b></li>
+      </ul>
+      <br />
+    </section>
+
+    <hr />
+
+    <section class="section2">
+      <h3>Experimental Section</h3>
+      <svg width="100" height="100">
+        <circle
+          cx="50"
+          cy="50"
+          r="40"
+          stroke="black"
+          stroke-width="3"
+          fill="red"
+        />
+      </svg>
+      <p id="transition">Transition</p>
+      <svg width="100" height="100" id="blueCircle">
+        <circle
+          cx="50"
+          cy="50"
+          r="40"
+          stroke="black"
+          stroke-width="3"
+          fill="blue"
+        />
+      </svg>
+    </section>
+
+    <hr />
+
+    <section>
+      <h3>Project List</h3>
+      <table>
+        <colgroup>
+          <col />
+          <col style="background-color: yellow" />
+        </colgroup>
+        <tr>
+          <th>Projects</th>
+          <th>Links</th>
+        </tr>
+        <tr>
+          <td>CSE110 AmongSus Project</td>
+          <td>
+            <a
+              href="https://github.com/cse110-fa22-group23/cse110-fa22-group23"
+            >
+              AmongSus
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>COGS108 Datascience Project</td>
+          <td>
+            <a href="https://github.com/COGS108/Group_006-Fa22">
+              Datascience
+            </a>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="section3">
+      <h3>Contact Me</h3>
+      <form>
+        <fieldset>
+          <legend>Contact Form</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" /><br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" /><br />
+          <label for="ice-cream-choice">Choose a flavor:</label>
+          <input
+            list="ice-cream-flavors"
+            id="ice-cream-choice"
+            name="ice-cream-choice"
+          />
+
+          <datalist id="ice-cream-flavors">
+            <option value="Chocolate"></option>
+            <option value="Coconut"></option>
+            <option value="Mint"></option>
+            <option value="Strawberry"></option>
+            <option value="Vanilla"></option>
+          </datalist>
+          <label for="favFood">Choose Favorite Food:</label>
+          <select name="favorite food" id="favFood">
+            <optgroup label="Vegetarian">
+              <option>Salad</option>
+              <option>Bread</option>
+            </optgroup>
+            <optgroup label="non-Vegetarian">
+              <option>Steak</option>
+              <option>Assorted Meats</option>
+            </optgroup>
+          </select>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br />
+          <button id="submitButton" type="submit">Submit</button>
+        </fieldset>
+      </form>
+      <p>You can reach Aung at:</p>
+      <ul>
+        <li><a href="tel:+4123533453">Phone</a></li>
+        <li><a href="mailto:aungkhantkyaw321@gmail.com">Email</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
