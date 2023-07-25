@@ -71,11 +71,7 @@ h3:hover {
 
 @media screen and (max-width: 767px) {
   body {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+    display: grid;
     background-color: var(--background-page-color);
   }
   nav ul li {
