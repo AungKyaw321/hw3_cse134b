@@ -78,6 +78,9 @@ h3:hover {
     font-size: 3em;
     transition: font-size 4s 2s;
   }
+  #submitButton {
+    font-size: 2em;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -119,6 +122,9 @@ h3:hover {
   #transition {
     font-size: 4em;
     transition: font-size 4s 2s;
+  }
+  #submitButton {
+    font-size: 1.5em;
   }
 }
 

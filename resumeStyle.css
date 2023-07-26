@@ -94,11 +94,12 @@ h3:hover {
     padding: 0;
   }
   pre {
-    font-size: 2em;
+    font-size: 4vw;
   }
 
   section ol li {
-    font-size: 1.5em;
+    font-size: 4vw;
+    font-size-adjust: 0.5;
   }
 
   div ul li {
@@ -108,7 +109,8 @@ h3:hover {
 /*change*/
 section {
   display: grid;
-  border: 2vw solid var(--accent-color);
+  place-items: center;
+  border: 1.5vw solid var(--accent-color);
 }
 
 table,
