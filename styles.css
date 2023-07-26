@@ -32,6 +32,10 @@ h3:hover {
     margin: 0;
     padding: 0;
   }
+  #transition {
+    font-size: 3em;
+    transition: font-size 4s 2s;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -70,6 +74,10 @@ h3:hover {
   label {
     font-size: 1.5em;
   }
+  #transition {
+    font-size: 3em;
+    transition: font-size 4s 2s;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -103,10 +111,14 @@ h3:hover {
     font-size: 1.5em;
   }
   legend {
-    font-size: 2em;
+    font-size: 3em;
   }
   label {
     font-size: 1.25em;
+  }
+  #transition {
+    font-size: 4em;
+    transition: font-size 4s 2s;
   }
 }
 
@@ -130,15 +142,15 @@ body {
 #myname {
   animation-duration: 3s;
   animation-name: slidein;
-}
-
+} /*
 #transition {
   font-size: 14px;
   transition: font-size 4s 2s;
 }
+*/
 
 #transition:hover {
-  font-size: 36px;
+  font-size: 40px;
 }
 #blueCircle {
   transform: translateX(90px);
