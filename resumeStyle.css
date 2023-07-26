@@ -8,7 +8,7 @@
 }
 nav ul li {
   display: inline-block;
-  border: 1vh solid black;
+  border: 2vw solid black;
   text-align: center;
   float: none;
   background-color: var(--main-color);
